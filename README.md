@@ -145,7 +145,3 @@ We welcome contributions! Please follow these steps:
 ---
 
 **Note**: This project is under active development. For feature requests or bug reports, please open an issue.
-
-```
-
-```
