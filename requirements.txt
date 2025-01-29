@@ -1,0 +1,11 @@
+ollama
+langchain
+langchain_chroma
+langchain_ollama
+chromadb
+gradio
+python-dotenv
+pypdf
+pdf2image
+pytesseract
+unstructured[local-inference]
