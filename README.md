@@ -21,7 +21,7 @@ A privacy-focused Retrieval-Augmented Generation (RAG) system that runs entirely
 
 | Component           | Technology                        |
 | ------------------- | --------------------------------- |
-| Language Models     | Ollama (Phi-2, DeepSeek-R1)       |
+| Language Models     | Ollama (Phi-3.5, DeepSeek-R1)       |
 | Embeddings          | Nomic Embed Text                  |
 | Vector Store        | ChromaDB                          |
 | Document Processing | LangChain, PyPDF, Unstructured.IO |
@@ -60,7 +60,7 @@ A privacy-focused Retrieval-Augmented Generation (RAG) system that runs entirely
 3. Download models:
    ```bash
    ollama pull nomic-embed-text
-   ollama pull phi2
+   ollama pull phi3.5
    ollama pull deepseek-r1:1.5b
    ```
 
