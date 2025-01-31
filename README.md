@@ -56,7 +56,10 @@ A privacy-focused Retrieval-Augmented Generation (RAG) system that runs entirely
 
    ```bash
    pip install -r requirements.txt
+   # Windows
+   pip install -r requirements_forWindows.txt
    ```
+   - Tested on Windows 11 with python 3.12.8
 
 3. Download models:
    ```bash
