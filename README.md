@@ -41,6 +41,7 @@ A privacy-focused Retrieval-Augmented Generation (RAG) system that runs entirely
   # Ubuntu
   sudo apt install tesseract-ocr
   ```
+  To install tesseract on Windows, please ref UBMannheim project [link](https://github.com/UB-Mannheim/tesseract/wiki). The installation path (default is `C:/ProgramFiles/Tesseract-OCR`) needs to be an environment variable before it can be used by `pytesseract` python package.  
 
 ### Setup
 
@@ -55,7 +56,10 @@ A privacy-focused Retrieval-Augmented Generation (RAG) system that runs entirely
 
    ```bash
    pip install -r requirements.txt
+   # Windows
+   pip install -r requirements_forWindows.txt
    ```
+   - Tested on Windows 11 with python 3.12.8
 
 3. Download models:
    ```bash
