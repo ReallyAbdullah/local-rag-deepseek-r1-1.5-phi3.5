@@ -4,6 +4,9 @@ __pycache__/
 *$py.class
 .idea
 /*/**.sqlite3
+/vector_store
+/data/uploaded
+data/ingested.json
 
 # C extensions
 *.so
