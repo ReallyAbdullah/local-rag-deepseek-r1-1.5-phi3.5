@@ -136,7 +136,7 @@ Please try again or rephrase your question."""
 def create_ui():
     """Create the Gradio UI"""
     with gr.Blocks(
-        title="Local RAG Assistant",
+        title="Local Agentic RAG Assistant",
         theme=gr.themes.Soft(),
         css=".gradio-container {max-width: 1200px}",
     ) as app:
