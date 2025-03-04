@@ -10,3 +10,5 @@ pdf2image
 pytesseract
 unstructured[local-inference]
 langchain-community
+ag2
+crewai>=0.11.0
